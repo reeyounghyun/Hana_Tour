@@ -1,0 +1,427 @@
+@charset "utf-8";
+.w_m {
+    width: 1200px;
+    margin: 0 auto;
+}
+.main_slider{
+    overflow: hidden;
+}
+.wrapper {
+    width: 100%;
+    border: 1px solid #000;
+    background-color: #E2DAF2;
+    position: relative;
+}
+.m_w_s {
+    width: 600px;
+    height: 600px;
+    border: 1px solid #000;
+}
+.m_w_s .swiper-slide {
+    width: 50%;
+    height: 600px;
+    text-align: center;
+    font-size: 18px;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+}
+.m_w_s .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.btn_pause {
+    background: url('../../images/youtube.png')no-repeat;
+    width: 50px;
+    height: 50px;
+    text-indent: -9999px;
+    border: 1px solid red;
+    cursor: pointer;
+    outline: none;
+    display: inline-block;
+    z-index: 200;
+}
+.btn_pause.on {
+    background: url('../../images/instagram.png')no-repeat;
+    width: 10px;
+    height: 10px;
+    text-indent: -9999px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+.travel_sug{
+    background-color: rgb(252, 231, 200);
+    padding: 60px 0;
+}
+.tr_sug .trs{
+    display: flex;
+}
+.tr_sug .tag{
+    font-size: 15px;
+    font-weight: bold;
+    border-bottom: 3px solid #111;
+    padding: 0 0 8px;
+    height: auto;
+    margin: 17px 0 18px;
+    line-height: 1;
+}
+.tr_sug .item_title{
+    font-family: 'hnt-font';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    color: #111;
+}
+.tr_sug .item_text{
+    color: #666;
+    line-height: 25px;
+    margin-top: 25px;
+    font-size: 14px;
+}
+.tr_sug ul{
+    position: absolute;
+    left: 642px;
+    bottom: 0;
+    margin-top: 45px;
+}
+.tr_sug ul li{
+    padding: 0 0 0 123px;
+    position: relative;
+    height: 102px;
+}
+.Korea_travel .main_tit h4{
+    color: #333;
+    font-size: 26px;
+    color: #000;
+    display: inline-block;
+    line-height: 1;
+}
+.Korea_travel ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.Korea_travel ul li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Korea_travel .item_title{
+    font-size: 17px;
+    font-weight: 600;
+    color: #111;
+    text-align: center;
+}
+.Korea_travel ul li:nth-child(3) .item_title{
+    font-size: 26px;
+    font-weight: 600;
+}
+.Korea_travel .item_text{
+    font-size: 13px;
+    color: #666;
+    line-height: 18px;
+    margin-top: 10px;
+    text-align: center;
+}
+.Korea_travel img{
+    display: block;
+    border-radius: 50%;
+    width: 190px;
+    height: 190px;
+    margin: 0 auto 18px;
+
+}
+.Korea_travel ul li:nth-child(3){
+    position: relative;
+}
+
+.Korea_travel ul li:nth-child(3) img{
+    width: 300px;
+    height: 300px;
+}
+.Korea_travel ul li:nth-child(3) span{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 48px;
+    color: #fff;
+    background-color: #5e2bb8;
+    font-size: 12px;
+    position: absolute;
+    top: 21px;
+    right: 33px;
+}
+.submain{
+    background: url(https://image.hanatour.com/usr/manual/update/pc/main/info/011_bg.jpg) 50% 0px no-repeat;
+    height: 749px;
+    overflow: hidden;
+    margin: 100px auto 0;
+}
+.main_tit{
+    margin: 60px auto 35px;
+}
+.main_tit h4{
+    color: #fff;
+    font-size: 30px;
+    line-height: 38px;
+    font-family: 'hnt-font';
+    font-weight: 400;
+}
+.submain_inner ul{
+    display: flex;
+    justify-content: center;
+
+    box-shadow: 0px 15px 15px 0px rgb(0 0 0 / 15%);
+    height: 517px;
+    background-color: #fff;
+}
+.submain_inner ul li{
+    width: 447px;
+}
+.submain_inner ul li:nth-child(1){
+    background-color: #fff;
+    position: relative;
+}
+.submain_inner ul li:nth-child(1) span{
+    font-size: 14px;
+    color: #111;
+    line-height: 1;
+    position: absolute;
+    top: 25px;
+    left: 30px;
+    right: 30px;
+    letter-spacing: 0;
+}
+.video{
+    width: 387px;
+    height: 218px;
+    position: absolute;
+    top: 75px;
+    left: 30px;
+    right: 30px;
+}
+.submain_inner .video iframe{
+    width: 100%;
+    height: 100%;
+}
+.submain_inner ul li:nth-child(2){
+    background: url(https://image.hanatour.com/usr/manual/update/pc/main/info/023_ga.png) 50% 0px no-repeat;
+    height: 517px;
+}
+.video p.item_title{
+    margin-top: 23px;
+    padding-bottom: 12px;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 600;
+}
+.video .vid_font{
+    font-size: 15px;
+    line-height: 22px;
+    color: #666;
+}
+.vid_font .item_text{
+    font-size: 15px;
+    line-height: 22px;
+}
+.arrow_r{
+    display: inline-block;
+    padding-top: 20px;
+    font-size: 13px;
+    line-height: 1;
+}
+.get_a {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+.get_tit{
+    position: relative;
+}
+.get_a span{
+    font-size: 14px;
+    color: #fff;
+    line-height: 1;
+    letter-spacing: 0;
+    position: absolute;
+    top: 25px;
+    left: 30px;
+    right: 30px;
+}
+.con_tit{
+    position: relative;
+}
+.con_tit::before{
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 322px;
+    background: linear-gradient(transparent, rgba(0,0,0,0.4));
+}
+.tit_in{
+    position: absolute;
+    bottom:25px;
+    left: 30px;
+    right: 30px;
+}
+.get_a .item_title{
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 600;
+    color: #fff;
+}
+.get_a .item_text{
+    font-size: 15px;
+    line-height: 22px;
+    color: #fff;
+    margin-top: 10px;
+}
+.get_a  .arrow_r{
+    color: #fff;
+}
+.submain_inner ul li:nth-child(3){
+    width: 306px;
+}
+.kim img{
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 220px;
+    height: 220px;
+}
+.get_a .item_w{
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+.submain_inner ul li:nth-child(3) .get_a .item_title,
+.submain_inner ul li:nth-child(3) .get_a span{
+    color: #111;
+}
+.submain_inner ul li:nth-child(3) .get_a .item_text{
+    color: #666;
+}
+.submain_inner ul li:nth-child(3) .get_a .item_text,
+.submain_inner ul li:nth-child(3) .get_a .arrow_r{
+    color: #333;
+}
+.inder_wrpper{
+    margin-bottom: 70px;
+}
+.inder_time{
+    background: #f7f7f7;
+    padding: 70px 0 54px;
+}
+.info_wrap{
+    display: flex;
+    justify-content: space-around;
+    border-top: 2px solid #000;
+    background-color: #fff;
+    padding: 40px 0;
+}
+.info_wrap .info_item01 h5{
+    font-size: 22px;
+    line-height: 27px;
+    color: #111;
+    margin-bottom: 30px;
+}  
+.info_wrap .info_item01 p{
+    font-size: 24px;
+    color: #111;
+    line-height: 1;
+    margin-bottom: 14px;
+    display: block;
+    margin-bottom: 30px;
+}
+.info_wrap .info_item01 span a{
+    font-size: 14px;
+    color: #111;
+    margin-top: 13px;
+    display: block;
+}
+.info_wrap .info_item02>div{
+    margin-bottom: 30px;
+}
+.info_wrap .info_item02{
+    display: flex;
+    flex-direction: column;
+}
+.info_wrap .info_item02 strong{
+    font-size: 15px;
+    color: #111;
+    display: block;
+    line-height: 1;
+    margin-bottom: 3px;
+}
+.info_wrap .info_item02 span{
+    margin: 6px 0 0;
+    font-size: 13px;
+    color: #666;
+    display: block;
+}
+
+.info_wrap .info_item03 strong{
+    font-size: 15px;
+    color: #111;
+    display: block;
+    line-height: 1;
+    margin-bottom: 3px;
+}
+.info_wrap .info_item03  span{
+    margin: 6px 0 0;
+    font-size: 13px;
+    color: #666;
+    display: block;
+}
+.info_wrap .info_item04 ul li strong.item04_tit{
+    font-size: 15px;
+    color: #111;
+    display: block;
+    line-height: 1;
+    margin-bottom: 3px;
+}
+.info_wrap .info_item04 ul li span{
+    margin: 8px 0 0;
+    font-size: 13px;
+    line-height: 1;
+    color: #666;
+}
+.info_wrap .info_item04 ul li:nth-child(2){
+    margin-top: 30px;
+}
+.info_wrap .info_item04 ul li:nth-child(3){
+    margin-top: 18px;
+}
+.info_wrap .info_item04 ul li {
+    font-size: 15px;
+    color: #111;
+    display: block;
+    line-height: 1;
+    margin-bottom: 3px;
+}
+.info_wrap .info_item04 ul li button{
+    margin-top: 7px;
+    line-height: 23px;
+    font-size: 12px;
+    padding: 0 10px;
+    color: #666;
+    background-color: #fff;
+    border-radius: 4px;
+    border: solid 1px #c2c2c2;
+}
+  
+
